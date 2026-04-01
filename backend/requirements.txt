@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+opencv-python-headless
+librosa
+numpy
+moviepy
+yt-dlp
+requests
+openai
+matplotlib
+pandas
+reportlab

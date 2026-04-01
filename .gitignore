@@ -1,0 +1,27 @@
+# Build Artifacts
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Project Data (Very Important!)
+uploads/
+processed/
+temp/
+
+# Enviroment
+.env
+.env.local
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
