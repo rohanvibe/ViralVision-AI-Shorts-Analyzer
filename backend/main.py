@@ -14,7 +14,11 @@ app = FastAPI(title="Shorts Analyzer Pro API")
 # Add CORS for local development
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "*", 
+        "https://viral-vision-ai-shorts-analyzer.vercel.app", 
+        "http://localhost:3000"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
