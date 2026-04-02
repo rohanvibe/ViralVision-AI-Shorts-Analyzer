@@ -265,7 +265,7 @@ export default function Home() {
   return (
     <main style={{ minHeight: '100vh', display: 'flex', background: 'var(--background)', padding: '20px', color: '#fff' }}>
       <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
-       <div style={{ flex: 1, overflowY: 'auto', paddingRight: '10px' }}>
+      <div style={{ flex: 1, overflowY: 'auto', paddingRight: '10px' }}>
         {renderContent()}
       </div>
     </main>
